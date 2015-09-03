@@ -50,10 +50,46 @@ module.exports = {
             url: "http://freebitcoin-devil.tk",
             technologies: [
                 "Ruby on Rails",
-                "heroku",
+                "Heroku",
                 "PostgreSQL",
-                "bitcoin"
+                "bitcoin",
+                "GoogleAnalytics"
             ]
-        }
+        },
+        {
+            title: "cookbook-github-users",
+            description: "cookbook to create linux user using github account and dotfile repository for chef",
+            url: "https://supermarket.chef.io/cookbooks/github-users",
+            code_url: "https://github.com/satetsu888/cookbook-github-users",
+            technologies: [
+                "Ruby",
+                "Chef"
+            ]
+        },
+        {
+            title: "KIRAKIRA ango",
+            description: "encryption/decryption the KIRAKIRA ango. it is not crypt but just generated hash.",
+            url: "http://kirakira-ango.com/",
+            code_url: "https://github.com/satetsu888/KIRAKIRA",
+            technologies: [
+                "Perl",
+                "Mojolicious",
+                "MySQL",
+                "memcached",
+                "travisCI",
+                "Objective-C",
+                "JSON-RPC"
+            ]
+        },
+        {
+            title: "hue-dynamic-query-params-extension",
+            description: "this is a chrome extension for hue users. this can assign all data into separetaed form with one click.",
+            url: "https://chrome.google.com/webstore/detail/hue-dynamic-query-params/jcllngmkkceclpgofmfblgifcjckmjmp",
+            code_url: "https://github.com/satetsu888/hue-dynamic-query-params-extension",
+            technologies: [
+                "javascript",
+                "Chrome extension"
+            ]
+        },
     ]
 };
