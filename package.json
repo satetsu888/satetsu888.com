@@ -1,0 +1,27 @@
+{
+  "name": "satetsu888.com",
+  "version": "0.0.1",
+  "description": "my page :)",
+  "main": "./src/main.js",
+  "scripts": {
+    "dev": "webpack --watch",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satetsu888/satetsu888.com.git"
+  },
+  "author": "satetsu888",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/satetsu888/satetsu888.com/issues"
+  },
+  "homepage": "https://github.com/satetsu888/satetsu888.com#readme",
+  "dependencies": {
+    "vue": "^0.12.10"
+  },
+  "devDependencies": {
+    "vue-loader": "^3.0.3",
+    "webpack": "^1.11.0"
+  }
+}
