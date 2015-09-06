@@ -1,12 +1,22 @@
 <style>
+img.profile-icon {
+    width: 32px;
+    height: 32px;
+}
 </style>
 
 <template>
     <div class="profile">
-        <img v-attr="src:icon_url" />
         {{name}}
-        {{like}}
-<icon-link-component v-repeat="links"></icon-link-component>
+        <img class="profile-icon" v-attr="src:icon_url" />
+        {{birthday}}
+
+        <h3>likes</h3>
+
+<li v-repeat="like">{{$value}}</li>
+
+        <h3>links</h3>
+        <icon-link-component v-repeat="links"></icon-link-component>
     </div>
 </template>
 

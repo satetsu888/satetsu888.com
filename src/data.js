@@ -2,7 +2,12 @@ module.exports = {
     profile: {
         name: "satetsu888",
         icon_url: "https://pbs.twimg.com/profile_images/2008781742/icon.png",
-        like: "wearable",
+        birthday: "1987-08-08",
+        like: [
+            "splatoon",
+            "wearable",
+            "bitcoin"
+        ],
         links: [
             {
                 name: "Twitter",
@@ -21,6 +26,12 @@ module.exports = {
                 icon_url: "http://qiita.com/favicon.ico",
                 link_text: "Qiita",
                 link_url: "http://qiita.com/satetsu888"
+            },
+            {
+                name: "Facebook",
+                icon_url: "http://www.facebook.com/favicon.ico",
+                link_text: "Facebook",
+                link_url: "https://www.facebook.com/shotaro.akiyama"
             },
             {
                 name: "mixi",

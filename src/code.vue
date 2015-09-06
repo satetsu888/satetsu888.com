@@ -3,7 +3,7 @@
 
 <template>
     <div class="code">
-        <a href={{url}}>{{title}}</a>
+        <h3><a href={{url}}>{{title}}</a></h3>
         {{{description}}}
         
         <span v-if="code_url">
