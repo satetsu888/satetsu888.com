@@ -1,19 +1,18 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-        <style>
-            body {
-                -webkit-text-size-adjust: 100%;
-            }
-        </style>
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <div id="app">
-            <h2>profile</h2>
-            <profile-component $data={{profile}}></profile-component>
-            <h2>code</h2>
-            <code-component v-repeat="codes"></code-component>
+        <div id="app" class="pure-g">
+            <div class="sidebar pure-u-1-4">
+                <profile-component $data={{profile}}></profile-component>
+            </div>
+            <div class="content pure-u-3-4">
+                <code-component v-repeat="codes"></code-component>
+            </div>
         </div>
 
         <script type="text/javascript" src="build/build.js" charset="utf-8"></script>

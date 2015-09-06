@@ -57,7 +57,7 @@ module.exports = {
         },
         {
             title: "freebitcoin-devil.tk",
-            description: "bitcoin faucet suitable for the <a href='https://paytoshi.org/'>paytoshi</a> and <a href='https://faucetbox.com/'>fauceatBOX</a>",
+            description: "bitcoin faucet suitable for the <a href='https://paytoshi.org/'>paytoshi</a> and <a href='https://faucetbox.com/'>faucetBOX</a>",
             url: "http://freebitcoin-devil.tk",
             technologies: [
                 "Ruby on Rails",
@@ -94,7 +94,7 @@ module.exports = {
         },
         {
             title: "hue-dynamic-query-params-extension",
-            description: "this is a chrome extension for hue users. this can assign all data into separetaed form with one click.",
+            description: "this is a chrome extension for <a href='http://gethue.com/'>Hue</a> users. this can assign all data into separetaed form with one click.",
             url: "https://chrome.google.com/webstore/detail/hue-dynamic-query-params/jcllngmkkceclpgofmfblgifcjckmjmp",
             code_url: "https://github.com/satetsu888/hue-dynamic-query-params-extension",
             technologies: [
