@@ -1,6 +1,9 @@
 <style>
 div.code {
-    margin: 5% 2em 0;
+    padding: 5% 1em 5%;
+}
+div.code.odd {
+    background-color : #bbbbbb;
 }
 .code .code-header {
     display: block;
@@ -9,13 +12,16 @@ div.code {
     display: inline;
     font-size: larger;
 }
+.code h3 {
+    display: initial;
+}
 .code .button-xsmall {
     font-size: 75%;
 }
 </style>
 
 <template>
-    <div class="code">
+    <div class="code" v-class="odd: !($index%2)">
         <div class="code-header">
         <h2>{{title}}</h2>
         <span v-if="url">
@@ -31,13 +37,21 @@ div.code {
             </button>
         </span>
         </div>
-        {{{description}}}
-        
+        <p>
+            {{{description}}}
+        </p>
+        <p>
+            <h3>technologies</h3>
+            <technology-component v-repeat="id in technologies"></span>
+        </p>
     </div>
 </template>
 
 <script>
 module.exports = {
     props: ["$data"],
+    components: {
+        'technology-component': require('./technology.vue'),
+    }
 };
 </script>

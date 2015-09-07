@@ -88,8 +88,7 @@ module.exports = {
                 "MySQL",
                 "memcached",
                 "travisCI",
-                "Objective-C",
-                "JSON-RPC"
+                "Objective-C"
             ]
         },
         {

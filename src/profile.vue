@@ -1,6 +1,6 @@
 <style>
 div.profile {
-    margin: 80% 2em 0;
+    margin: 10% 2em 0;
 }
 .profile h1 {
     font-size: initial;
@@ -22,7 +22,7 @@ img.profile-icon {
 
         <h2>likes</h2>
 
-<li v-repeat="like">{{$value}}</li>
+        <li v-repeat="like">{{$value}}</li>
 
         <h2>links</h2>
         <icon-link-component v-repeat="links"></icon-link-component>
