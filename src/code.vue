@@ -9,7 +9,6 @@ div.code.odd {
     display: block;
 }
 .code h2 {
-    display: inline;
     font-size: larger;
 }
 .code h3 {

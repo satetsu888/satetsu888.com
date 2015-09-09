@@ -3,6 +3,10 @@ module.exports = {
         name: "satetsu888",
         icon_url: "https://pbs.twimg.com/profile_images/2008781742/icon.png",
         birthday: "1987-08-08",
+        biography: [
+            "web engineer",
+            "tokyo",
+        ],
         like: [
             "splatoon",
             "wearable",
