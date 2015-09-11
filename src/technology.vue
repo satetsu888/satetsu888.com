@@ -1,4 +1,7 @@
 <style>
+div.technology {
+    width: 75%;
+}
 .technology img {
     width: 20px;
     height: 20px;

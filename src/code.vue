@@ -14,7 +14,6 @@ div.code.odd {
     font-size: larger;
 }
 .code h3 {
-    display: initial;
     font-size: inherit;
 }
 .code .code-content {
@@ -32,6 +31,7 @@ div.code.odd {
         </div>
         <div class="code-content">
             <p>
+                <h3>description</h3>
                 {{{description}}}
             </p>
             <p>
