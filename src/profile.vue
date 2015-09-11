@@ -1,10 +1,14 @@
 <style>
 div.profile {
-    margin: 10% 2em 0;
+    margin: 15% 2em 10% ;
 }
 .profile h1 {
-    font-size: initial;
+    font-size: larger;
     display: inline;
+}
+.profile p {
+    font-size: small;
+    color: #dddddd;
 }
 .profile h2 {
     font-size: initial;
@@ -12,6 +16,9 @@ div.profile {
 img.profile-icon {
     width: 32px;
     height: 32px;
+    border-radius: 17px;
+    padding: 5px;
+    background-color: #ffffff;
 }
 </style>
 
@@ -19,6 +26,7 @@ img.profile-icon {
     <div class="profile">
         <h1>{{name}}</h1>
         <img class="profile-icon" v-attr="src:icon_url" />
+        <p>{{biography}}</p>
 
         <h2>likes</h2>
 

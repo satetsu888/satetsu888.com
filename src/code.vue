@@ -1,9 +1,11 @@
 <style>
 div.code {
     padding: 5% 1em 5%;
+    color: #56443E;
+    background-color : #F9B19A;
 }
 div.code.odd {
-    background-color : #bbbbbb;
+    background-color : #C18472;
 }
 .code .code-header {
     display: block;
@@ -13,6 +15,10 @@ div.code.odd {
 }
 .code h3 {
     display: initial;
+    font-size: inherit;
+}
+.code .code-content {
+    padding: 0 1em 0;
 }
 .code .button-xsmall {
     font-size: 75%;
@@ -23,26 +29,28 @@ div.code.odd {
     <div class="code" v-class="odd: !($index%2)">
         <div class="code-header">
         <h2>{{title}}</h2>
-        <span v-if="url">
-            <button class="button-xsmall pure-button" onclick="window.open('{{url}}')">
-                <i class="fa fa-television"></i>
-                View
-            </button>
-        </span>
-        <span v-if="code_url">
-            <button class="button-xsmall pure-button" onclick="window.open('{{code_url}}')">
-                <i class="fa fa-github-alt"></i>
-                View Code
-            </button>
-        </span>
         </div>
-        <p>
-            {{{description}}}
-        </p>
-        <p>
-            <h3>technologies</h3>
-            <technology-component v-repeat="id in technologies"></span>
-        </p>
+        <div class="code-content">
+            <p>
+                {{{description}}}
+            </p>
+            <p>
+                <h3>technologies</h3>
+                <technology-component v-repeat="id in technologies"></technology-component>
+            </p>
+            <span v-if="url">
+                <button class="button-xsmall pure-button" onclick="window.open('{{url}}')">
+                    <i class="fa fa-television"></i>
+                    View
+                </button>
+            </span>
+            <span v-if="code_url">
+                <button class="button-xsmall pure-button" onclick="window.open('{{code_url}}')">
+                    <i class="fa fa-github-alt"></i>
+                    View Code
+                </button>
+            </span>
+        </div>
     </div>
 </template>
 

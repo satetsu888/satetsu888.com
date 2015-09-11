@@ -5,13 +5,31 @@
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            div.sidebar {
+                background-color: #CE481F;
+                color: #ffffff;
+            }
+            div.sidebar a {
+                color: #ffffff;
+            }
+            div.content {
+                background-color: #FFFFFF;
+                color: #000000;
+                border-right-style: solid;
+                border-right-width: 10px;
+                margin-left: -10px;
+                border-color: #CE481F;
+            }
+
+        </style>
     </head>
     <body>
         <div id="app" class="pure-g">
-            <div class="pure-u-1 pure-u-md-1-4">
+            <div class="sidebar pure-u-1 pure-u-md-1-4">
                 <profile-component $data={{profile}}></profile-component>
             </div>
-            <div class="pure-u-1 pure-u-md-3-4">
+            <div class="content pure-u-1 pure-u-md-3-4">
                 <code-component v-repeat="codes"></code-component>
             </div>
         </div>

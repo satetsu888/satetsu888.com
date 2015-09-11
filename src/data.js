@@ -3,10 +3,7 @@ module.exports = {
         name: "satetsu888",
         icon_url: "https://pbs.twimg.com/profile_images/2008781742/icon.png",
         birthday: "1987-08-08",
-        biography: [
-            "web engineer",
-            "tokyo",
-        ],
+        biography: "web engineer / tokyo",
         like: [
             "splatoon",
             "wearable",
@@ -61,7 +58,7 @@ module.exports = {
         },
         {
             title: "freebitcoin-devil.tk",
-            description: "bitcoin faucet suitable for the <a href='https://paytoshi.org/'>paytoshi</a> and <a href='https://faucetbox.com/'>faucetBOX</a>",
+            description: "bitcoin faucet suitable for the <a href='https://paytoshi.org/' target='_blank'>paytoshi</a> and <a href='https://faucetbox.com/' target='_blank' >faucetBOX</a>",
             url: "http://freebitcoin-devil.tk",
             technologies: [
                 "Ruby on Rails",
@@ -97,7 +94,7 @@ module.exports = {
         },
         {
             title: "hue-dynamic-query-params-extension",
-            description: "this is a chrome extension for <a href='http://gethue.com/'>Hue</a> users. this can assign all data into separetaed form with one click.",
+            description: "this is a chrome extension for <a href='http://gethue.com/' target='_blank'>Hue</a> users. this can assign all data into separetaed form with one click.",
             url: "https://chrome.google.com/webstore/detail/hue-dynamic-query-params/jcllngmkkceclpgofmfblgifcjckmjmp",
             code_url: "https://github.com/satetsu888/hue-dynamic-query-params-extension",
             technologies: [

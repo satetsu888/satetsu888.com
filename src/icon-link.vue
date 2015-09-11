@@ -7,7 +7,7 @@
 
 <template>
     <div class="icon-link">
-        <a href="{{link_url}}" title="{{name}}">
+        <a href="{{link_url}}" target="_blank" title="{{name}}">
         <img class="icon" v-attr="src:icon_url" />
         {{link_text}}
         </a>
