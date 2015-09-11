@@ -3,8 +3,6 @@
     width: 20px;
     height: 20px;
     position: absolute;
-    bottom: -2;
-    display: inline;
 }
 span.technology {
     position: relative;
