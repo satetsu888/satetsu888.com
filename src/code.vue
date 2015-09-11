@@ -18,6 +18,7 @@ div.code.odd {
 }
 .code .code-content {
     padding: 0 1em 0;
+    width: 80%;
 }
 .code .button-xsmall {
     font-size: 75%;
