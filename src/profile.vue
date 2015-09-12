@@ -16,16 +16,17 @@ div.profile {
 img.profile-icon {
     width: 32px;
     height: 32px;
-    border-radius: 17px;
-    padding: 5px;
+    border-radius: 20px;
+    padding: 8px;
     background-color: #ffffff;
+    display: block;
 }
 </style>
 
 <template>
     <div class="profile">
-        <h1>{{name}}</h1>
         <img class="profile-icon" v-attr="src:icon_url" />
+        <h1>{{name}}</h1>
         <p>{{biography}}</p>
 
         <h2>likes</h2>
