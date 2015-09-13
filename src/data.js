@@ -40,6 +40,12 @@ module.exports = {
                 link_text: "mixi",
                 link_url: "http://mixi.jp/show_profile.pl?id=4967581"
             },
+            {
+                name: "hatena",
+                icon_url: "http://www.google.com/s2/favicons?domain=hatenablog.com",
+                link_text: "HatenaBlog",
+                link_url: "http://satetsu888.hatenablog.com/"
+            },
         ],
     },
     codes: [
