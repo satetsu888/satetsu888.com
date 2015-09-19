@@ -99,6 +99,16 @@ module.exports = {
             ]
         },
         {
+            title: "mixiapp-search-extension",
+            description: "open mixi apps page from selected text or text in clipboads",
+            url: "https://chrome.google.com/webstore/detail/mixiapp-search-extension/ebolbdfmhlngnmdfipnonlhlhgfijhbj",
+            code_url: "https://github.com/satetsu888/mixiapp-search-extension",
+            technologies: [
+                "javascript",
+                "Chrome extension"
+            ]
+        },
+        {
             title: "hue-dynamic-query-params-extension",
             description: "this is a chrome extension for <a href='http://gethue.com/' target='_blank'>Hue</a> users. this can assign all data into separetaed form with one click.",
             url: "https://chrome.google.com/webstore/detail/hue-dynamic-query-params/jcllngmkkceclpgofmfblgifcjckmjmp",
