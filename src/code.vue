@@ -2,10 +2,10 @@
 div.code {
     padding: 5% 1em 5%;
     color: #56443E;
-    background-color : #F9B19A;
+    background-color : #C18472;
 }
 div.code.odd {
-    background-color : #C18472;
+    background-color : #F9B19A;
 }
 .code .code-header {
     display: block;
