@@ -1,7 +1,7 @@
 module.exports = {
     profile: {
         name: "satetsu888",
-        icon_url: "https://pbs.twimg.com/profile_images/2008781742/icon.png",
+        icon_url: "//pbs.twimg.com/profile_images/2008781742/icon.png",
         birthday: "1987-08-08",
         biography: "web engineer / tokyo",
         like: [
@@ -12,39 +12,39 @@ module.exports = {
         links: [
             {
                 name: "Twitter",
-                icon_url: "https://twitter.com/favicon.ico",
+                icon_url: "//twitter.com/favicon.ico",
                 link_text: "Twitter",
-                link_url: "https://twitter.com/satetsu888"
+                link_url: "//twitter.com/satetsu888"
             },
             {
                 name: "GitHub",
-                icon_url: "https://github.com/favicon.ico",
+                icon_url: "//github.com/favicon.ico",
                 link_text: "GitHub",
-                link_url: "https://github.com/satetsu888"
+                link_url: "//github.com/satetsu888"
             },
             {
                 name: "Qiita",
-                icon_url: "http://qiita.com/favicon.ico",
+                icon_url: "//qiita.com/favicon.ico",
                 link_text: "Qiita",
-                link_url: "http://qiita.com/satetsu888"
+                link_url: "//qiita.com/satetsu888"
             },
             {
                 name: "Facebook",
-                icon_url: "http://www.facebook.com/favicon.ico",
+                icon_url: "//www.facebook.com/favicon.ico",
                 link_text: "Facebook",
-                link_url: "https://www.facebook.com/shotaro.akiyama"
+                link_url: "//www.facebook.com/shotaro.akiyama"
             },
             {
                 name: "mixi",
-                icon_url: "http://mixi.jp/favicon.ico",
+                icon_url: "//mixi.jp/favicon.ico",
                 link_text: "mixi",
-                link_url: "http://mixi.jp/show_profile.pl?id=4967581"
+                link_url: "//mixi.jp/show_profile.pl?id=4967581"
             },
             {
                 name: "hatena",
-                icon_url: "http://www.google.com/s2/favicons?domain=hatenablog.com",
+                icon_url: "//www.google.com/s2/favicons?domain=hatenablog.com",
                 link_text: "HatenaBlog",
-                link_url: "http://satetsu888.hatenablog.com/"
+                link_url: "//satetsu888.hatenablog.com/"
             },
         ],
     },
@@ -52,8 +52,8 @@ module.exports = {
         {
             title: "vue-resettable",
             description: "resettable component for vue.js",
-            url: "https://www.npmjs.com/package/vue-resettable",
-            code_url: "https://github.com/satetsu888/vue-resettable",
+            url: "//www.npmjs.com/package/vue-resettable",
+            code_url: "//github.com/satetsu888/vue-resettable",
             technologies: [
                 "javascript",
                 "vue.js",
@@ -64,8 +64,8 @@ module.exports = {
         },
         {
             title: "freebitcoin-devil.tk",
-            description: "bitcoin faucet suitable for the <a href='https://paytoshi.org/' target='_blank'>paytoshi</a> and <a href='https://faucetbox.com/' target='_blank' >faucetBOX</a>",
-            url: "http://freebitcoin-devil.tk",
+            description: "bitcoin faucet suitable for the <a href='//paytoshi.org/' target='_blank'>paytoshi</a> and <a href='//faucetbox.com/' target='_blank' >faucetBOX</a>",
+            url: "//freebitcoin-devil.tk",
             technologies: [
                 "Ruby on Rails",
                 "Heroku",
@@ -77,8 +77,8 @@ module.exports = {
         {
             title: "cookbook-github-users",
             description: "cookbook to create linux user using github account and dotfile repository for chef",
-            url: "https://supermarket.chef.io/cookbooks/github-users",
-            code_url: "https://github.com/satetsu888/cookbook-github-users",
+            url: "//supermarket.chef.io/cookbooks/github-users",
+            code_url: "//github.com/satetsu888/cookbook-github-users",
             technologies: [
                 "Ruby",
                 "Chef"
@@ -87,8 +87,8 @@ module.exports = {
         {
             title: "KIRAKIRA ango",
             description: "encryption/decryption the KIRAKIRA ango. it is not crypt but just generated hash.",
-            url: "http://kirakira-ango.com/",
-            code_url: "https://github.com/satetsu888/KIRAKIRA",
+            url: "//kirakira-ango.com/",
+            code_url: "//github.com/satetsu888/KIRAKIRA",
             technologies: [
                 "Perl",
                 "Mojolicious",
@@ -101,8 +101,8 @@ module.exports = {
         {
             title: "mixiapp-search-extension",
             description: "open mixi apps page from selected text or text in clipboads",
-            url: "https://chrome.google.com/webstore/detail/mixiapp-search-extension/ebolbdfmhlngnmdfipnonlhlhgfijhbj",
-            code_url: "https://github.com/satetsu888/mixiapp-search-extension",
+            url: "//chrome.google.com/webstore/detail/mixiapp-search-extension/ebolbdfmhlngnmdfipnonlhlhgfijhbj",
+            code_url: "//github.com/satetsu888/mixiapp-search-extension",
             technologies: [
                 "javascript",
                 "Chrome extension"
@@ -110,9 +110,9 @@ module.exports = {
         },
         {
             title: "hue-dynamic-query-params-extension",
-            description: "this is a chrome extension for <a href='http://gethue.com/' target='_blank'>Hue</a> users. this can assign all data into separetaed form with one click.",
-            url: "https://chrome.google.com/webstore/detail/hue-dynamic-query-params/jcllngmkkceclpgofmfblgifcjckmjmp",
-            code_url: "https://github.com/satetsu888/hue-dynamic-query-params-extension",
+            description: "this is a chrome extension for <a href='//gethue.com/' target='_blank'>Hue</a> users. this can assign all data into separetaed form with one click.",
+            url: "//chrome.google.com/webstore/detail/hue-dynamic-query-params/jcllngmkkceclpgofmfblgifcjckmjmp",
+            code_url: "//github.com/satetsu888/hue-dynamic-query-params-extension",
             technologies: [
                 "javascript",
                 "Chrome extension"
