@@ -20,6 +20,7 @@ img.profile-icon {
     padding: 8px;
     background-color: #ffffff;
     display: block;
+    box-sizing: initial;
 }
 </style>
 

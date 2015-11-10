@@ -1,11 +1,13 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./solved-by-flexbox.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
+            body {
+                margin: 0px;
+            }
             div.sidebar {
                 background-color: #CE481F;
                 color: #ffffff;
@@ -22,21 +24,19 @@
                 border-width: 10px;
                 border-color: #CE481F;
             }
-
+            a {
+                color: #471fce;
+                border-bottom: 0px;
+            }
         </style>
     </head>
     <body>
-        <div id="app" class="pure-g">
-            <div class="sidebar pure-u-1 pure-u-md-1-4">
+        <div id="app" class="Grid">
+            <div class="sidebar Grid-cell u-full u-small-1of4">
                 <profile-component $data={{profile}}></profile-component>
             </div>
-            <div class="content pure-u-1 pure-u-md-3-4">
+            <div class="content Grid-cell u-full u-small-3of4">
                 <code-component v-repeat="codes"></code-component>
-            </div>
-
-            <div class="pure-u-1">
-                this site contains below data
-                <textarea v-model="$data | json 2" style="width:100%;height:100%"></textarea>
             </div>
         </div>
 

@@ -29,10 +29,10 @@ module.exports = {
             icon_url: {
                 Perl: "http://www.perl.org/favicon.ico",
                 Mojolicious: "http://mojolicio.us/favicon.ico",
-                MySQL: "http://www-jp.mysql.com/favicon.ico",
+                MySQL: "http://www.google.com/s2/favicons?domain=mysql.com",
                 memcached: "http://www.drupal.org/files/images/memcache_logo.png",
                 travisCI: "http://travis-ci.com/img/brand-standards/logo-downloads/TravisCI-Full-Color-vertical.png",
-                "Objective-C": "http://www.ihartdevelopers.com/wp-content/uploads/2014/12/Objective-C-Logo.png",
+                "Objective-C": "http://cdn.dev.classmethod.jp/wp-content/uploads/2014/09/icon-xcode-6-320x320.png",
                 javascript: "https://cozy.io/assets/images/javascript_logo.png",
                 "Chrome extension": "http://www.calstate.edu/images/icons/chrome_web_store_logo.gif",
                 "vue.js": "http://jp.vuejs.org/images/logo.png",
