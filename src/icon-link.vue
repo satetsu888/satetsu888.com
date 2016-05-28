@@ -7,15 +7,15 @@
 
 <template>
     <div class="icon-link">
-        <a href="{{link_url}}" target="_blank" title="{{name}}">
-        <img class="icon" v-attr="src:icon_url" />
-        {{link_text}}
+        <a href="{{link.link_url}}" target="_blank" title="{{link.name}}">
+        <img class="icon" :src="link.icon_url" />
+        {{link.link_text}}
         </a>
     </div>
 </template>
 
 <script>
 module.exports = {
-    props: ["$data"],
+    props: ["link"],
 };
 </script>

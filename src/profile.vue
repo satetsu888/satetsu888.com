@@ -26,22 +26,22 @@ img.profile-icon {
 
 <template>
     <div class="profile">
-        <img class="profile-icon" v-attr="src:icon_url" />
-        <h1>{{name}}</h1>
-        <p>{{biography}}</p>
+        <img class="profile-icon" :src="profile.icon_url" />
+        <h1>{{profile.name}}</h1>
+        <p>{{profile.biography}}</p>
 
         <h2>likes</h2>
 
-        <li v-repeat="like">{{$value}}</li>
+        <li v-for="like in profile.like" :like="like">{{like}}</li>
 
         <h2>links</h2>
-        <icon-link-component v-repeat="links"></icon-link-component>
+        <icon-link-component v-for="link in profile.links" :link="link"></icon-link-component>
     </div>
 </template>
 
 <script>
 module.exports = {
-    props: ["$data"],
+    props: ["profile"],
     components: {
         'icon-link-component': require('./icon-link.vue'),
     }

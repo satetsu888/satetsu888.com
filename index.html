@@ -36,10 +36,10 @@
     <body>
         <div id="app" class="Grid">
             <div class="sidebar Grid-cell u-full u-small-1of4">
-                <profile-component $data={{profile}}></profile-component>
+                <profile-component :profile=profile></profile-component>
             </div>
             <div class="content Grid-cell u-full u-small-3of4">
-                <code-component v-repeat="codes"></code-component>
+                <code-component v-for="code in codes" :code="code" :index="$index"></code-component>
             </div>
         </div>
 
