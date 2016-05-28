@@ -39,7 +39,7 @@
                 <profile-component $data={{profile}}></profile-component>
             </div>
             <div class="content Grid-cell u-full u-small-3of4">
-                <code-component v-repeat="codes"></code-component>
+                <code-component v-for="code in codes"></code-component>
             </div>
         </div>
 

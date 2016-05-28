@@ -28,25 +28,25 @@ div.code.odd {
 <template>
     <div class="code" v-class="odd: !($index%2)">
         <div class="code-header">
-        <h2>{{title}}</h2>
+        <h2>{{code.title}}</h2>
         </div>
         <div class="code-content">
             <p>
                 <h3>description</h3>
-                {{{description}}}
+                {{{code.description}}}
             </p>
             <p>
                 <h3>technologies</h3>
-                <technology-component v-repeat="id in technologies"></technology-component>
+                <technology-component v-for="id in technologies"></technology-component>
             </p>
             <span v-if="url">
-                <button class="button-xsmall pure-button" onclick="window.open('{{url}}')">
+                <button class="button-xsmall pure-button" onclick="window.open('{{code.url}}')">
                     <i class="fa fa-television"></i>
                     View
                 </button>
             </span>
             <span v-if="code_url">
-                <button class="button-xsmall pure-button" onclick="window.open('{{code_url}}')">
+                <button class="button-xsmall pure-button" onclick="window.open('{{code.code_url}}')">
                     <i class="fa fa-github-alt"></i>
                     View Code
                 </button>
@@ -57,7 +57,7 @@ div.code.odd {
 
 <script>
 module.exports = {
-    props: ["$data"],
+    props: ["code"],
     components: {
         'technology-component': require('./technology.vue'),
     }
