@@ -39,13 +39,13 @@ div.code.odd {
                 <h3>technologies</h3>
                 <technology-component v-for="id in code.technologies" :id="id"></technology-component>
             </p>
-            <span v-if="url">
+            <span v-if="code.url">
                 <button class="button-xsmall pure-button" onclick="window.open('{{code.url}}')">
                     <i class="fa fa-television"></i>
                     View
                 </button>
             </span>
-            <span v-if="code_url">
+            <span v-if="code.code_url">
                 <button class="button-xsmall pure-button" onclick="window.open('{{code.code_url}}')">
                     <i class="fa fa-github-alt"></i>
                     View Code
