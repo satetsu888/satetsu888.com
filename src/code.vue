@@ -26,7 +26,7 @@ div.code.odd {
 </style>
 
 <template>
-    <div class="code" v-class="odd: !($index%2)">
+    <div class="code" :class="(index%2)===0 ? '' : 'odd'">
         <div class="code-header">
         <h2>{{code.title}}</h2>
         </div>
@@ -37,7 +37,7 @@ div.code.odd {
             </p>
             <p>
                 <h3>technologies</h3>
-                <technology-component v-for="id in technologies"></technology-component>
+                <technology-component v-for="id in code.technologies" :id="id"></technology-component>
             </p>
             <span v-if="url">
                 <button class="button-xsmall pure-button" onclick="window.open('{{code.url}}')">
@@ -57,7 +57,7 @@ div.code.odd {
 
 <script>
 module.exports = {
-    props: ["code"],
+    props: ["code", "index"],
     components: {
         'technology-component': require('./technology.vue'),
     }

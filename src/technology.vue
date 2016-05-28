@@ -17,7 +17,7 @@ span.technology span.text {
 
 <template>
     <span class="technology">
-        <img class="icon" v-attr="src:icon_url[id]" />
+        <img class="icon" :src="this.icon_url[id]" />
         <span class="text">{{id}}<span>
     </span>
 </template>
