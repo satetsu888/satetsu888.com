@@ -24,7 +24,7 @@ module.exports = {
             },
             {
                 name: "Qiita",
-                icon_url: "//qiita.com/favicon.ico",
+                icon_url: "//cdn.qiita.com/assets/favicons/public/apple-touch-icon-f9a6afad761ec2306e10db2736187c8b.png",
                 link_text: "Qiita",
                 link_url: "//qiita.com/satetsu888"
             },
