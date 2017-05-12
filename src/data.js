@@ -1,7 +1,7 @@
 module.exports = {
     profile: {
         name: "satetsu888",
-        icon_url: "//pbs.twimg.com/profile_images/2008781742/icon.png",
+        icon_url: "//pbs.twimg.com/profile_images/832444746228342785/s_lKus7x.jpg",
         birthday: "1987-08-08",
         biography: "web engineer / tokyo",
         like: [
