@@ -12,37 +12,37 @@ module.exports = {
         links: [
             {
                 name: "Twitter",
-                icon_url: "//twitter.com/favicon.ico",
+                icon_url: "./img/twitter.ico",
                 link_text: "Twitter",
                 link_url: "//twitter.com/satetsu888"
             },
             {
                 name: "GitHub",
-                icon_url: "//github.com/favicon.ico",
+                icon_url: "./img/github.ico",
                 link_text: "GitHub",
                 link_url: "//github.com/satetsu888"
             },
             {
                 name: "Qiita",
-                icon_url: "//cdn.qiita.com/assets/favicons/public/apple-touch-icon-f9a6afad761ec2306e10db2736187c8b.png",
+                icon_url: "./img/qiita.png",
                 link_text: "Qiita",
                 link_url: "//qiita.com/satetsu888"
             },
             {
                 name: "Facebook",
-                icon_url: "//www.facebook.com/favicon.ico",
+                icon_url: "./img/facebook.ico",
                 link_text: "Facebook",
                 link_url: "//www.facebook.com/shotaro.akiyama"
             },
             {
                 name: "mixi",
-                icon_url: "//mixi.jp/favicon.ico",
+                icon_url: "./img/mixi.ico",
                 link_text: "mixi",
                 link_url: "//mixi.jp/show_profile.pl?id=4967581"
             },
             {
                 name: "hatena",
-                icon_url: "//www.google.com/s2/favicons?domain=hatenablog.com",
+                icon_url: "./img/hatena.png",
                 link_text: "HatenaBlog",
                 link_url: "//satetsu888.hatenablog.com/"
             },
