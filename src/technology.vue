@@ -28,7 +28,7 @@ module.exports = {
         return {
             icon_url: {
                 Perl: "./img/perl.ico",
-                Mojolicious: "./img//mojolicious.ico",
+                Mojolicious: "./img/mojolicious.ico",
                 MySQL: "./img/mysql.png",
                 memcached: "./img/memcached.png",
                 travisCI: "./img/travis.svg",
