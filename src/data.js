@@ -50,6 +50,16 @@ module.exports = {
     },
     codes: [
         {
+            title: "kyash-button",
+            description: "button widget to send Kyash",
+            url: "https://satetsu888.github.io/kyash-button/",
+            code_url: "https://github.com/satetsu888/kyash-button",
+            technologies: [
+                "javascript",
+                "webpack",
+            ]
+        },
+        {
             title: "vue-resettable",
             description: "resettable component for vue.js",
             url: "//www.npmjs.com/package/vue-resettable",
