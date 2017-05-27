@@ -44,7 +44,7 @@ module.exports = {
                 name: "hatena",
                 icon_url: "./img/hatena.png",
                 link_text: "HatenaBlog",
-                link_url: "//satetsu888.hatenablog.com/"
+                link_url: "http://satetsu888.hatenablog.com/"
             },
         ],
     },
