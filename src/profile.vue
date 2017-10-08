@@ -1,6 +1,6 @@
 <style>
 div.profile {
-    margin: 15% 2em 10% ;
+    padding: 15% 2em 10% ;
 }
 .profile h1 {
     font-size: larger;
