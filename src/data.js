@@ -40,12 +40,6 @@ module.exports = {
                 link_text: "mixi",
                 link_url: "//mixi.jp/show_profile.pl?id=4967581"
             },
-            {
-                name: "hatena",
-                icon_url: "./img/hatena.png",
-                link_text: "HatenaBlog",
-                link_url: "http://satetsu888.hatenablog.com/"
-            },
         ],
     },
     codes: [
