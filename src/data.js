@@ -29,6 +29,12 @@ module.exports = {
                 link_url: "//qiita.com/satetsu888"
             },
             {
+                name: "Medium",
+                icon_url: "./img/medium.svg",
+                link_text: "Medium",
+                link_url: "//medium.com/@satetsu888"
+            },
+            {
                 name: "Facebook",
                 icon_url: "./img/facebook.ico",
                 link_text: "Facebook",
