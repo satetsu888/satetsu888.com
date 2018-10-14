@@ -45,7 +45,11 @@ module.exports = {
                 bitcoin: "./img/bitcoin.png",
                 GoogleAnalytics: "./img/google-analytics.png",
                 Ruby: "./img/ruby.ico",
-                Chef: "./img/chef.png"
+                Chef: "./img/chef.png",
+                Python: "./img/python.png",
+                flask: "./img/flask.png",
+                swagger: "./img/swagger.png",
+                kubernetes: "./img/kubernetes.png",
             }
         }
     },

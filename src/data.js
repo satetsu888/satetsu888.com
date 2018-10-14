@@ -50,6 +50,17 @@ module.exports = {
     },
     codes: [
         {
+            title: "microzeny",
+            description: "Micropeyment service for cryptocurrency BitZeny",
+            url: "https://microzeny.com/",
+            technologies: [
+                "Python",
+                "flask",
+                "swagger",
+                "kubernetes",
+            ]
+        },
+        {
             title: "kyash-button",
             description: "button widget to send Kyash",
             url: "https://satetsu888.github.io/kyash-button/",
