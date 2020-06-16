@@ -52,7 +52,6 @@ module.exports = {
         {
             title: "microzeny",
             description: "Micropeyment service for cryptocurrency BitZeny",
-            url: "https://microzeny.com/",
             technologies: [
                 "Python",
                 "flask",
