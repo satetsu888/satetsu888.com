@@ -50,6 +50,9 @@ module.exports = {
                 flask: "./img/flask.png",
                 swagger: "./img/swagger.png",
                 kubernetes: "./img/kubernetes.png",
+                typescript: "./img/typescript.svg",
+                react: "./img/react.svg",
+                electron: "./img/electron.svg",
             }
         }
     },

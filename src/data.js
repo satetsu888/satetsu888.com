@@ -50,6 +50,16 @@ module.exports = {
     },
     codes: [
         {
+            title: "VTS-chameleon",
+            description: "tint color plugin for VTube Studio",
+            url: "https://satetsu888.github.io/vts-chameleon/",
+            technologies: [
+                "typescript",
+                "react",
+                "electron",
+            ]
+        },
+        {
             title: "microzeny",
             description: "Micropeyment service for cryptocurrency BitZeny",
             technologies: [
