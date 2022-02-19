@@ -95,7 +95,6 @@ module.exports = {
         {
             title: "freebitcoin-devil.tk",
             description: "bitcoin faucet suitable for the <a href='//paytoshi.org/' target='_blank'>paytoshi</a> and <a href='//faucetbox.com/' target='_blank' >faucetBOX</a>",
-            url: "//freebitcoin-devil.tk",
             technologies: [
                 "Ruby on Rails",
                 "Heroku",
@@ -117,7 +116,6 @@ module.exports = {
         {
             title: "KIRAKIRA ango",
             description: "encryption/decryption the KIRAKIRA ango. it is not crypt but just generated hash.",
-            url: "//kirakira-ango.com/",
             code_url: "//github.com/satetsu888/KIRAKIRA",
             technologies: [
                 "Perl",
@@ -141,7 +139,6 @@ module.exports = {
         {
             title: "hue-dynamic-query-params-extension",
             description: "this is a chrome extension for <a href='//gethue.com/' target='_blank'>Hue</a> users. this can assign all data into separetaed form with one click.",
-            url: "//chrome.google.com/webstore/detail/hue-dynamic-query-params/jcllngmkkceclpgofmfblgifcjckmjmp",
             code_url: "//github.com/satetsu888/hue-dynamic-query-params-extension",
             technologies: [
                 "javascript",
