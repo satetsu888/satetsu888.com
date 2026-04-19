@@ -36,7 +36,7 @@ wrangler.jsonc   Cloudflare Workers 設定 (assets: ./dist, SPA fallback)
 ### プロジェクトを追加する
 
 1. `src/data/projects.tsx` の配列先頭 (= 新しいほう) に挿入
-2. `year >= 2016` なら通常表示、`year <= 2015` なら archive に自動振り分け
+2. `year >= 2020` なら通常表示、`year < 2020` なら archive に自動振り分け
 3. `tech` は `TechTagId` のリテラルで指定
 
 新しい技術を `tech` で使う場合:

@@ -3,7 +3,7 @@ import { ProjectItem } from "../components/ProjectItem";
 import { CompactProjectItem } from "../components/CompactProjectItem";
 import styles from "../styles/Projects.module.css";
 
-const ARCHIVE_THRESHOLD = 2016;
+const ARCHIVE_THRESHOLD = 2020;
 
 export function Projects() {
   const recent = projects.filter((p) => p.year >= ARCHIVE_THRESHOLD);
