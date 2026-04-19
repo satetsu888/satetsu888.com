@@ -1,0 +1,190 @@
+:root {
+  --fg: #1a1a1f;
+  --fg-muted: #5a5a66;
+  --fg-subtle: #8e8e99;
+  --accent: #ce481f;
+  --accent-soft: #e87149;
+  --rule: rgba(30, 20, 15, 0.08);
+  --rule-strong: rgba(30, 20, 15, 0.16);
+  --tag-bg: rgba(206, 72, 31, 0.06);
+  --tag-border: rgba(206, 72, 31, 0.22);
+
+  --font-sans:
+    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+
+  --measure: 720px;
+  --space-section: 5rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--fg);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.65;
+  letter-spacing: -0.005em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  background-color: #fefefc;
+  background-image:
+    radial-gradient(
+      ellipse 60% 45% at 8% 5%,
+      rgba(206, 72, 31, 0.07),
+      transparent 65%
+    ),
+    radial-gradient(
+      ellipse 55% 45% at 95% 100%,
+      rgba(249, 177, 154, 0.09),
+      transparent 65%
+    );
+  background-attachment: fixed;
+}
+
+.page {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 5rem 1.75rem 7rem;
+}
+
+.page > section + section,
+.page > section + footer {
+  margin-top: var(--space-section);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: -0.015em;
+}
+
+.page > section > h2 {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--fg-subtle);
+  margin: 0 0 1.5rem;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a {
+  color: var(--fg);
+  text-decoration: none;
+  background-image: linear-gradient(var(--fg-subtle), var(--fg-subtle));
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  background-position: 0 100%;
+  transition:
+    color 150ms ease,
+    background-image 150ms ease;
+  padding-bottom: 1px;
+}
+
+a:hover {
+  color: var(--accent);
+  background-image: linear-gradient(var(--accent), var(--accent));
+}
+
+a[target="_blank"]::after {
+  content: "\2197";
+  font-size: 0.85em;
+  color: var(--fg-subtle);
+  display: inline-block;
+  margin-left: 0.15em;
+  transition: color 150ms ease;
+}
+
+a[target="_blank"]:hover::after {
+  color: var(--accent);
+}
+
+.link-row {
+  font-size: 15px;
+  color: var(--fg-muted);
+  line-height: 2;
+}
+
+.link-row .sep {
+  color: var(--fg-subtle);
+  margin: 0 0.35em;
+}
+
+.interests {
+  font-size: 13px;
+  color: var(--fg-subtle);
+  margin-top: 1rem;
+}
+
+.tech-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--fg-muted);
+  background: var(--tag-bg);
+  border: 1px solid var(--tag-border);
+  padding: 0.25em 0.7em;
+  border-radius: 999px;
+  line-height: 1.5;
+}
+
+.tech-tag__icon {
+  width: 11px;
+  height: 11px;
+  flex-shrink: 0;
+}
+
+.colophon {
+  font-size: 12px;
+  color: var(--fg-subtle);
+  border-top: 1px solid var(--rule);
+  padding-top: 1.5rem;
+}
+
+.colophon p {
+  margin: 0 0 0.25rem;
+}
+
+.colophon a {
+  color: var(--fg-subtle);
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 15px;
+  }
+
+  .page {
+    padding: 3rem 1.25rem 4.5rem;
+  }
+
+  :root {
+    --space-section: 3.5rem;
+  }
+}
