@@ -2,6 +2,15 @@ import type { Project } from "./types";
 
 export const projects: Project[] = [
   {
+    title: "Oh My Hooks",
+    year: 2026,
+    description:
+      "webhook tunneling service. cli and vs code extension forward a public URL on a unique subdomain to a local port over websocket.",
+    url: "https://ohmh.satetsu888.dev",
+    codeUrl: "https://github.com/satetsu888/ohmh",
+    tech: ["typescript", "vscodeext", "websocket"],
+  },
+  {
     title: "Payment Clock",
     year: 2026,
     description:

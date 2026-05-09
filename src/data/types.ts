@@ -23,6 +23,7 @@ export type TechTagId =
   | "tauri"
   | "rust"
   | "webassembly"
+  | "websocket"
   | "ruby"
   | "rails"
   | "chef"
@@ -36,6 +37,7 @@ export type TechTagId =
   | "objectivec"
   | "karma"
   | "chromeext"
+  | "vscodeext"
   | "bitcoin"
   | "googleanalytics";
 

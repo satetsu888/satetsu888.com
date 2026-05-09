@@ -28,6 +28,8 @@ import {
   SiGoogleanalytics,
   SiGooglechrome,
 } from "react-icons/si";
+import { TbArrowsLeftRight } from "react-icons/tb";
+import { VscVscode } from "react-icons/vsc";
 import type { TechTagId } from "./types";
 
 type TechMeta = { label: string; Icon: IconType | null };
@@ -49,6 +51,7 @@ export const TECH_META: Record<TechTagId, TechMeta> = {
   tauri: { label: "Tauri", Icon: SiTauri },
   rust: { label: "Rust", Icon: SiRust },
   webassembly: { label: "WebAssembly", Icon: SiWebassembly },
+  websocket: { label: "WebSocket", Icon: TbArrowsLeftRight },
   ruby: { label: "Ruby", Icon: SiRuby },
   rails: { label: "Ruby on Rails", Icon: SiRubyonrails },
   chef: { label: "Chef", Icon: SiChef },
@@ -60,6 +63,7 @@ export const TECH_META: Record<TechTagId, TechMeta> = {
   bitcoin: { label: "Bitcoin", Icon: SiBitcoin },
   googleanalytics: { label: "Google Analytics", Icon: SiGoogleanalytics },
   chromeext: { label: "Chrome extension", Icon: SiGooglechrome },
+  vscodeext: { label: "VS Code extension", Icon: VscVscode },
   mojolicious: { label: "Mojolicious", Icon: null },
   memcached: { label: "memcached", Icon: null },
   objectivec: { label: "Objective-C", Icon: null },
